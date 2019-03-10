@@ -1,0 +1,111 @@
+/*header code is here*/
+
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+.header{
+	background-color: #000;
+	color:white;
+	float: left;
+	width: 100%;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.header a{
+	color:white;
+	text-decoration: none;
+}
+
+.header ul li{
+	float: left;
+	padding: 20px;
+	list-style: none;
+}
+.e-ml{
+	margin-left: 833px;
+}
+.f-ml{
+	margin-left: 927px;
+}
+
+.ml{
+	margin-left: 50px;
+}
+
+/*footer code starts from here*/
+
+.footer{
+	background: black;
+	color: white;
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+}
+.footer ul li{
+	list-style: none;
+	float: left;
+	padding: 20px;
+}
+.footer a{
+	color:white;
+	text-decoration: none;
+}
+
+/*home code is here*/
+
+.container{
+	float: left;
+	text-align: center;
+	padding: 13px 0px 13px 0px;
+	width: 100%;
+}
+
+/*login code starts form here*/
+
+.login{
+	width: 30%;
+	float: left;
+	background-color: #eee;
+	border:2px solid black;
+	margin-top: 100px;
+	padding: 50px;
+	margin-left: 30%;
+	position: relative;
+}
+
+.login input{
+	width: 100%;
+	height: 30px;
+	margin-top: 30px;
+	border-radius: 10%;
+	border: 1px solid black; 
+	font-size: 15px;
+	padding-left: 20px;
+}
+
+.login input[type="submit"]{
+	cursor: pointer;
+}
+
+.logo{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	background-color: #000;
+	position: absolute;	
+	top: -55px;
+  left: 189px;
+}
+.logo i{
+	color: white;
+  font-size: 45px;
+  margin-left: 31px;
+  margin-top: 24px;
+}
+
+/*signup starts from here*/

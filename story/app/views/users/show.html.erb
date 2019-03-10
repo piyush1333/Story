@@ -1,0 +1,5 @@
+<%=id = params[:id].to_i
+  id =id -1
+%>
+<h1>Hello <%= @display[id].name%> You are sucessfully registered</h1>
+<%= link_to "home", root_url  %>
